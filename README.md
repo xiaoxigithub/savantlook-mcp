@@ -81,14 +81,13 @@ https://www.savantlook.com/user/api-tokens
 | `today-stats` | Retrieve today's API usage statistics for the user | None |
 | `magic-keywords` | Magic Keyword Tool - Precise Keyword Digging Assistant | phrase, database, mode, display_number, display_size |
 
-Parameters in [brackets] are optional.
 
 ## 💰 API Units Consumption
 
 API requests to SavantLook consume API units from your account. Different types of requests have different costs. You can check your API units balance using the `account-details` tool.
 
 ### ⚡ Limited Time Offer! ⚡
-Now it is a limited time event, **<span style="color:red; font-weight:bold">only 2 points</span>** are required during the operation test phase.
+Now it is a limited time event, **only 2 points** are required during the test phase.
 
 ### Keyword Reports API Units Consumption
 
@@ -98,15 +97,15 @@ Now it is a limited time event, **<span style="color:red; font-weight:bold">only
 | `account-details` | 0 |
 | `get-databases` | 0 |
 | `analytics-engagement` | 0 |
-| `domain-overview` | ~~<span style="color:red">4</span>~~ 2 |
-| `backlinks-overview` | ~~<span style="color:red">4</span>~~ 2 |
-| `domain-trend` | ~~<span style="color:red">5</span>~~ 2 |
-| `domain-country-overview` | ~~<span style="color:red">5</span>~~ 2 |
-| `domain-organic-keyword` | ~~<span style="color:red">10</span>~~ 2 |
-| `adwords-competitors-list` | ~~<span style="color:red">10</span>~~ 2 |
-| `organic-competitors-list` | ~~<span style="color:red">10</span>~~ 2 |
-| `backlinks-list` | ~~<span style="color:red">10</span>~~ 2 |
-| `magic-keywords` | ~~<span style="color:red">10</span>~~ 2 |
+| `domain-overview` | ~~4~~ 🔥 **2** |
+| `backlinks-overview` | ~~4~~ 🔥 **2** |
+| `domain-trend` | ~~5~~ 🔥 **2** |
+| `domain-country-overview` | ~~5~~ 🔥 **2** |
+| `domain-organic-keyword` | ~~10~~ 🔥 **2** |
+| `adwords-competitors-list` | ~~10~~ 🔥 **2** |
+| `organic-competitors-list` | ~~10~~ 🔥 **2** |
+| `backlinks-list` | ~~10~~ 🔥 **2** |
+| `magic-keywords` | ~~10~~ 🔥 **2** |
 
 ## 🖥️ Adding to Cursor or Claude
 
