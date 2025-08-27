@@ -109,7 +109,13 @@ Now it is a limited time event, **only 2 points** are required during the test p
 
 ## 🖥️ Adding to Cursor or Claude
 
-To add this MCP server to Cursor or Claude:
+### Claude Example with Bearer token
+
+```bash
+claude mcp add --transport http savantlook-mcp https://www.savantlook.com/mcp \
+  --header "Authorization: Bearer your-token"
+
+```
 
 ### Cursor
 

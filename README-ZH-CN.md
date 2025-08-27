@@ -110,7 +110,13 @@ SavantLook 的 API 请求会消耗您账户中的 API 单位。不同类型的�
 
 ## 🖥️ 添加到 Cursor 或 Claude
 
-将此 MCP 服务器添加到 Cursor 或 Claude：
+### Claude Example with Bearer token
+
+```bash
+claude mcp add --transport http savantlook-mcp https://www.savantlook.com/mcp \
+  --header "Authorization: Bearer your-token"
+
+```
 
 ### Cursor
 
