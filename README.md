@@ -1,39 +1,39 @@
-# SavantLook MCP Server
+# 🔍 SavantLook MCP Server
 
 A Model Context Protocol (MCP) server implementation that provides tools for accessing SavantLook API data.
 
-## Features
+## 🌟 Features
 
 The SavantLook MCP server provides tools for:
 
-- **Domain Analytics**
+- **Domain Analytics** 📊
   - Domain overview information
   - Organic and paid keywords analysis
   - Competitor analysis
   - Traffic trends and engagement metrics
-  - Backlink analysis
 
-- **Keyword Analytics**
+- **Keyword Analytics** 🔑
   - Keyword overview data
   - Related keyword discovery
-  - Keyword difficulty and search volume
+  - Phrase questions discovery
+  - Keyword difficulty and search volume, intents, trend, cpc data etc.
   - Magic keyword mining tool
 
-- **Backlink Analysis**
+- **Backlink Analysis** 🔗
   - Backlink data
   - Referring domains analysis
   - Backlink overview and lists
+  - Including page weight, internal links, number of external links, page links, titles, source IP, etc.
 
-- **Account Management**
+- **Account Management** 👤
   - Account details and credit balance
   - API usage statistics
 
-- **Traffic Analytics**
+- **Traffic Analytics** 🚦
   - Traffic summary for domains
   - Traffic sources analysis
-  - (Note: Requires .Trends API subscription)
 
-## Setup
+## ⚙️ Setup
 
 1. Register an account using our [keyword research tool](https://www.savantlook.com/register)
 
@@ -56,14 +56,14 @@ https://www.savantlook.com/user/api-tokens
 ```
 
 
-## Variables
+## 📋 Variables
 
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `Authorization` | Your Savantlook API key | (Required) |
 
 
-## Available Tools
+## 🛠️ Available Tools
 
 | Tool Name | Description | Required Parameters |
 |-----------|-------------|---------------------|
@@ -83,11 +83,12 @@ https://www.savantlook.com/user/api-tokens
 
 Parameters in [brackets] are optional.
 
-## API Units Consumption
+## 💰 API Units Consumption
 
 API requests to SavantLook consume API units from your account. Different types of requests have different costs. You can check your API units balance using the `account-details` tool.
 
-Now it is a limited time event, <span style="color:red; font-weight:bold">only 2 points</span> are required during the operation test phase.
+### ⚡ Limited Time Offer! ⚡
+Now it is a limited time event, **<span style="color:red; font-weight:bold">only 2 points</span>** are required during the operation test phase.
 
 ### Keyword Reports API Units Consumption
 
@@ -107,7 +108,7 @@ Now it is a limited time event, <span style="color:red; font-weight:bold">only 2
 | `backlinks-list` | ~~<span style="color:red">10</span>~~ 2 |
 | `magic-keywords` | ~~<span style="color:red">10</span>~~ 2 |
 
-## Adding to Cursor or Claude
+## 🖥️ Adding to Cursor or Claude
 
 To add this MCP server to Cursor or Claude:
 
@@ -141,12 +142,12 @@ Configure your MCP servers JSON file for your designated consuming environment b
 ```
 
 
-## Security Notes
+## 🔐 Security Notes
 
 - Never share your Savantlook API key publicly
 - API key provides access to your API units balance
 - Exposing credentials can lead to unauthorized API usage and unexpected charges
 
-## License
+## 📄 License
 
 [MIT](./LICENSE)
